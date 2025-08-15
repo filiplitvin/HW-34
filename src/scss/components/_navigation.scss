@@ -26,6 +26,11 @@
     font-size: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
-    min-width: 480px;
+    width: 100%;
+  }
+  .nav__text::before {
+    background-image: url(../img/menu.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }

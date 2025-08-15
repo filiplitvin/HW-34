@@ -74,7 +74,12 @@ body {
     font-size: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
-    min-width: 480px;
+    width: 100%;
+  }
+  .nav__text::before {
+    background-image: url(../img/menu.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 .main {
@@ -111,7 +116,7 @@ body {
 @media (max-width: 480px) {
   .main__info {
     margin-top: 20px;
-    padding: 200px;
+    padding: 130px;
     font-size: 40px;
   }
 }
