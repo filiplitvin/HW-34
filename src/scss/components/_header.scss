@@ -1,0 +1,7 @@
+.header {
+  @extend %flexCentration;
+}
+.header__container {
+  @extend %flexCentration;
+  flex-wrap: nowrap;
+}
