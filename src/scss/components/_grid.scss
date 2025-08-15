@@ -14,12 +14,10 @@
   color: white;
   padding-top: 40px;
   padding-bottom: 40px;
+
   width: 166px;
-  position: relative;
-  top: 300px;
-  left: 440px;
 }
-@media (max-width: 834px) {
+@media (max-width: 768px) {
   .grid__item {
     max-width: 500px;
   }

@@ -1,3 +1,10 @@
+.main {
+  @extend %flexCentration;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 550px;
+  margin-left: 31%;
+}
 .main__info {
   @extend %flexCentration;
   background-color: rgb(168, 51, 51);
@@ -11,10 +18,8 @@
   padding-top: 120px;
   padding-bottom: 120px;
   max-width: 200px;
-  position: absolute;
-  left: 465px;
 }
-@media (max-width: 834px) {
+@media (max-width: 768px) {
   .main__info {
     padding-left: 200px;
     padding-right: 200px;

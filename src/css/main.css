@@ -40,7 +40,7 @@ body {
   gap: 10px;
 }
 
-.grid__item, .grid, .aside, .main__info, .nav__text {
+.grid__item, .grid, .aside, .main__info, .main, .nav__text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,13 +71,20 @@ body {
   padding-right: 175px;
 }
 
-@media (max-width: 834px) {
+@media (max-width: 768px) {
   .nav__text {
     font-size: 20px;
     padding-left: 100px;
     padding-right: 100px;
   }
 }
+.main {
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 550px;
+  margin-left: 31%;
+}
+
 .main__info {
   background-color: rgb(168, 51, 51);
   font-size: 24px;
@@ -89,11 +96,9 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
   max-width: 200px;
-  position: absolute;
-  left: 465px;
 }
 
-@media (max-width: 834px) {
+@media (max-width: 768px) {
   .main__info {
     padding-left: 200px;
     padding-right: 200px;
@@ -107,24 +112,20 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 200;
   color: white;
-  padding-left: 45px;
-  padding-right: 40px;
+  padding-left: 67px;
+  padding-right: 67px;
   padding-top: 120px;
   padding-bottom: 120px;
   max-height: 200px;
-  position: absolute;
-  left: 845px;
+  max-width: 25px;
 }
 
-@media (max-width: 834px) {
+@media (max-width: 768px) {
   .aside {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 220px;
+    padding-right: 220px;
     padding-top: 40px;
     padding-bottom: 40px;
-    position: absolute;
-    top: 260px;
-    left: 465px;
   }
 }
 .grid {
@@ -142,12 +143,9 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   width: 166px;
-  position: relative;
-  top: 300px;
-  left: 440px;
 }
 
-@media (max-width: 834px) {
+@media (max-width: 768px) {
   .grid__item {
     max-width: 500px;
   }
