@@ -3,8 +3,14 @@
   flex-wrap: wrap;
   gap: 20px;
   max-width: 550px;
-  margin-left: 31%;
 }
+.main__container {
+  @extend %flexCentration;
+  flex-wrap: wrap;
+}
+// .main__info-box {
+//   @extend %flexCentration;
+// }
 .main__info {
   @extend %flexCentration;
   background-color: rgb(168, 51, 51);
