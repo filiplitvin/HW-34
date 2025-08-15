@@ -1,7 +1,5 @@
 .nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flexCentration;
 }
 .nav__text {
   @extend %flexCentration;
@@ -13,13 +11,21 @@
   color: white;
   padding-top: 2px;
   padding-bottom: 2px;
-  padding-left: 175px;
-  padding-right: 175px;
+  padding-left: 165px;
+  padding-right: 165px;
 }
 @media (max-width: 768px) {
   .nav__text {
     font-size: 20px;
     padding-left: 100px;
     padding-right: 100px;
+  }
+}
+@media (max-width: 480px) {
+  .nav__text {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-width: 480px;
   }
 }

@@ -2,15 +2,13 @@
   @extend %flexCentration;
   flex-wrap: wrap;
   gap: 20px;
-  max-width: 550px;
 }
 .main__container {
   @extend %flexCentration;
   flex-wrap: wrap;
+  max-width: 550px;
 }
-// .main__info-box {
-//   @extend %flexCentration;
-// }
+
 .main__info {
   @extend %flexCentration;
   background-color: rgb(168, 51, 51);
@@ -31,5 +29,12 @@
     padding-right: 200px;
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+}
+@media (max-width: 480px) {
+  .main__info {
+    margin-top: 20px;
+    padding: 200px;
+    font-size: 40px;
   }
 }
