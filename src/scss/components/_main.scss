@@ -7,6 +7,7 @@
   @extend %flexCentration;
   flex-wrap: wrap;
   max-width: 550px;
+  gap: 20px;
 }
 
 .main__info {
@@ -34,7 +35,7 @@
 @media (max-width: 480px) {
   .main__info {
     margin-top: 20px;
-    padding: 130px;
+    padding: 170px;
     font-size: 40px;
   }
 }

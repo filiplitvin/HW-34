@@ -18,7 +18,12 @@
   width: 166px;
 }
 @media (max-width: 768px) {
-  .grid__item {
+  .grid {
     max-width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  .grid__item {
+    width: 225px;
   }
 }

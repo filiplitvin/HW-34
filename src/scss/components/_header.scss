@@ -4,4 +4,5 @@
 .header__container {
   @extend %flexCentration;
   flex-wrap: nowrap;
+  gap: 20px;
 }

@@ -1,5 +1,4 @@
 .container {
-  @extend %flexCentration;
+  max-width: 550px;
   margin: 0 auto;
-  gap: 20px;
 }
